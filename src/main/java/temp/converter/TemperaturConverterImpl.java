@@ -3,7 +3,7 @@ package temp.converter;
 import org.springframework.stereotype.Service;
 
 @Service
-public class TemperaturConverterImp implements TemperatureConverterService{
+public class TemperaturConverterImpl implements TemperatureConverterService{
     @Override
     public float convertCelciusToFahrenheit(float degree) {
         float fahrenheit = (float) ((degree * 1.8) + 32);
